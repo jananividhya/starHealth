@@ -9,60 +9,37 @@ import { Button, Header, Image, Modal } from 'semantic-ui-react'
 
 
 class Media extends Component {
-  
-  state = { open: false
-           
-           }
-           show = dimmer => () => this.setState({ dimmer, open: true })
-           close = () => this.setState({ open: false })
+  constructor(props) {
+    super(props);
+  }
+
+  componentDidMount() {
+    const s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+     s.src = "./mediainner";
+    s.innerHTML = "document.write('This is output by document.write()!')";
+    console.log("this",this);
+    this.instance.appendChild(s);
+  }
+
   render() {
-    const { open, dimmer } = this.state
     return (
-      <div>
-        <center><h1 className="center_text_media" >Media</h1></center>
-        <div className="fix_media"> 
-        <Button onClick={this.show('blurring')}> <img src={video1} className="sample2" /></Button>
-  
-  <Modal dimmer={dimmer}  open={open} onClose={this.close}>
-  <iframe width="400" className="iframepos video1move"  frameborder="0" height="250" src="https://www.youtube.com/embed/KtYw2V1qNbU?autoplay=1">
-</iframe>
+<div>
+       <h2>Image Modal</h2>
+      <p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
+      <p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
+      
+      <img id="myImg" src={video1} alt="Snow" ref={el => (this.instance = el)} />
+      
 
-    
-      </Modal>
-      <Button onClick={this.show('blurring')}> <img src={video2} className="sample2" /></Button>
-  
-  <Modal dimmer={dimmer}  open={open} onClose={this.close}>
-  <iframe width="400" className="iframepos"  frameborder="0" height="250" src="https://www.youtube.com/embed/DjXOOh37AhU?autoplay=1">
-</iframe>
-
-    
-      </Modal>
-      
-      <Button onClick={this.show('blurring')}> <img src={video3} className="sample2" /></Button>
-  
-  <Modal dimmer={dimmer}  open={open} onClose={this.close}>
-  <iframe width="400" className="iframepos"  frameborder="0" height="250" src="https://www.youtube.com/embed/JEt8HjBJIHE?autoplay=1">
-</iframe>
-
-    
-      </Modal>
-      
-     
-      <Button onClick={this.show('blurring')}> <img src={video4} className="sample2" /></Button>
-  
-  <Modal dimmer={dimmer}  open={open} onClose={this.close}>
-  <iframe width="400" className="iframepos"  frameborder="0" height="250" src="https://www.youtube.com/embed/9L6cn0HBxDU?autoplay=1">
-</iframe>
-
-    
-      </Modal>
-     
-        </div>
-      
-      </div>
-      
-      
-    )
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" />
+        <div id="caption"></div>
+   </div>
+      </div> 
+      );
   }
 
     }

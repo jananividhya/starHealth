@@ -42,7 +42,7 @@ class App extends Component {
 
 .btn-xxl {
   padding: 0.5rem 0.3rem;
-  font-size: 1.25rem;
+  font-size: 1.0rem;
 }
 `}
 </style>

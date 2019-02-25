@@ -214,3 +214,53 @@
                                    
         </Menu.Item>
       </Menu>
+
+
+
+      https://www.youtube.com/embed/KtYw2V1qNbU?autoplay=1
+      https://www.youtube.com/embed/DjXOOh37AhU?autoplay=1
+      https://www.youtube.com/embed/JEt8HjBJIHE?autoplay=1
+      https://www.youtube.com/embed/9L6cn0HBxDU?autoplay=1
+
+
+
+
+
+
+
+       <div>
+        <center><h1 className="center_text_media" >Media</h1></center>
+        <div className="fix_media">
+        <div className ="column"> 
+        <Button    className="buttons" onClick="">
+        <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%;max-width:300px" />
+        </Button>
+      </div>
+
+<div id="myModal" class="modal" ref="myModal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01" />
+  <div id="caption"></div>
+</div>
+
+
+      {/* <div className="column">
+      <Button className="buttons"  onClick={this.show('blurring')}> <img src={video2}  /></Button>
+
+      </div>
+      <div className="column" >
+      <Button    className="buttons" onClick={this.show('blurring')}> <img src={video3}  /></Button>
+  
+
+      </div>
+      <div className="column">
+      <Button  className="buttons" onClick={this.show('blurring')}> <img src={video4} /></Button>
+  
+
+     </div> */}
+        </div>
+      
+      </div>
+      
+      
+    )

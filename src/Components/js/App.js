@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <div>
     
-        <NavBar1 />
+        {/* <NavBar1 />
       <div className="divSticky"><NavBar2 /></div>
         
         
@@ -22,7 +22,7 @@ class App extends React.Component {
         <Marquee />
         <People />
         <Menu />
-     <Static /> 
+     <Static />  */}
      <Media />
       
       </div>);
