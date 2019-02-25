@@ -1,0 +1,95 @@
+.center_text_people{
+    text-align:center;
+    color:rgb(0, 51, 102);
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px greenyellow;
+
+
+}
+.fix_people{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box_people{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box_people .text_people{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 7%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+}
+.block1{
+    width:150px;
+    position:absolute; 
+    left:-180px;
+     top:70px; 
+}
+.block1 .inner1 {
+    word-wrap: break-word;
+    color:blue;
+    font-weight: 700;
+    text-shadow: 2px 2px whitesmoke;
+  }
+.block2{
+    width:150px;
+    position:absolute;
+    left:30px;
+    top:70px;
+}
+.block2 .inner2{
+    word-wrap:break-word;
+    color:blue;
+    font-weight: 700;
+    text-shadow: 2px 2px whitesmoke;
+    }
+
+.block3{
+    width:150px;
+    position:absolute;
+    left:250px;
+    top:70px;
+}
+
+
+.block3 .inner3{
+    word-wrap:break-word;
+    color:blue;
+    font-weight: 700;
+    text-shadow: 2px 2px whitesmoke;
+    }
+
+
+    .block4{
+    width:150px;
+    position:absolute;
+    left:-180px;
+    top:220px;
+    }
+
+    .block4 .inner4{
+        word-wrap:break-word;
+        color:blue;
+        font-weight: 700;
+        text-shadow: 2px 2px whitesmoke;
+        }
+        .block5{
+            width:150px;
+            position:absolute;
+            left:30px;
+            top:220px;
+            }
+        
+    .block5 .inner5{
+         word-wrap:break-word;
+         color:blue;
+         font-weight: 700;
+         text-shadow: 2px 2px whitesmoke;
+                }
+            

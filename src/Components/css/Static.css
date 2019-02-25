@@ -1,0 +1,25 @@
+.center_text_static{
+    font-size: 15px;
+    color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 21px;
+    padding:30px;
+}
+.fix_people_static{
+    max-width: 100%;
+    max-height: 100%;
+}
+.content-wrapper{
+    width: 100%!important;
+    padding: 0 15px;
+}
+.box_people_statics{
+    min-height: 190px;
+    color: blue;
+    background-color: rgb(15, 70, 124);
+    border-bottom: 1px solid #FFF;
+
+    
+}
+

@@ -1,0 +1,82 @@
+.center_text_media{
+    text-align:center;
+    color:rgb(152, 186, 58);
+    font-family: "Times New Roman", Times, serif;
+    
+    text-shadow: 2px 2px maroon;
+    font-weight:bold;
+    position:relative;
+    
+     top:35px
+
+}
+.fix_media{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box_media{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box_media .text_media{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0%; /* Adjust this value to move the positioned div up and down */
+    text-align:left;
+    width: 60%; /* Set the width of the positioned div */
+}
+
+.video1move{
+    
+    position:relative;
+     left:50px; 
+     top:30px
+    }
+/* .sample{
+    cursor:pointer;
+    
+    padding:0px;
+    margin:0px;
+
+    vertical-align: middle;
+}
+.pa{
+    padding-right: 220px;
+} */
+
+.sample2{
+    width:200px;
+    height:auto;
+    position:relative;
+}
+
+ button{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-right:0px !important;
+    position:relative;
+     left:150px; 
+     top:100px;
+     right:100px;
+} 
+
+iframe{
+    position:relative;
+    left:100px; 
+    top:10px
+}
+.iframepos{
+    bottom:100px;
+    top:0px;
+    left:0px;
+}
+.ui.modal.active{
+    width:400px !important;
+    height:250px !important;
+}

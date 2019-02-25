@@ -1,0 +1,20 @@
+
+div.top{
+  z-index: -1;
+  background-color: black;
+  display: inline;
+ }
+
+
+
+.divSticky {
+  z-index:1000;
+position: sticky;
+  top: 0;
+  
+
+
+}
+::-webkit-scrollbar { 
+    display: none; 
+}

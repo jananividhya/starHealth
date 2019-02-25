@@ -1,0 +1,17 @@
+.scroll{
+    background-color: rgb(15, 70, 124);
+    color:white;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.mar_a{
+    text-decoration:none;
+    color:crimson; 
+}
+.in_p{
+    color:crimson;
+}
+.outer{
+    background-color: rgb(15, 70, 124);
+}
