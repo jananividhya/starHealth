@@ -1,8 +1,5 @@
 import React from 'react';
-import '../css/NavBar1.css'
-import { Menu } from 'semantic-ui-react'
-
-
+import '../css/NavBar1.css';
 class NavBar1 extends React.Component {
   render() {
     console.log('NavBar1');
@@ -10,7 +7,6 @@ class NavBar1 extends React.Component {
       <div class="nav">
         <div class="nav-header">
           <div class="nav-title">
-
             TOLL FREE NUMBER- 1800 425 2255/1800
                                     102 4477
             </div>
@@ -28,7 +24,7 @@ class NavBar1 extends React.Component {
           <a href="http://stackoverflow.com/users/4084003/" target="_blank">HEALTH ZONE</a>
           <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">MEDIA CENTER</a>
           <a href="https://codepen.io/jo_Geek/" target="_blank">CONTACT US</a>
-          <a href="https://jsfiddle.net/user/jo_Geek/" className="dropdown dropbtn" target="_blank">LOGIN
+          <a href="https://jsfiddle.net/user/jo_Geek/" className="dropdown dropbtn2" target="_blank">LOGIN
             <div class="dropdown-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>

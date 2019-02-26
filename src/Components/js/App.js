@@ -8,23 +8,24 @@ import Menu from './Menu';
 import People from "./People";
 import Static from "./Static";
 import Media from "./Media";
+import Feedback from "./FeedbackDisplay";
+import Simpleslider from "./SimpleSlider";
+import Footer from "./Footering";
 class App extends React.Component {
   render() {
     return (
       <div>
-    
-        {/* <NavBar1 />
+        <NavBar1 />
       <div className="divSticky"><NavBar2 /></div>
-        
-        
-        <Apps />
-       
-        <Marquee />
-        <People />
-        <Menu />
-     <Static />  */}
+         <Apps />
+        <Marquee /> 
+        <Simpleslider />
+         <People />
+         <Menu />
+       <Static /> 
      <Media />
-      
+      <Feedback /> 
+      <Footer />
       </div>);
   }
 

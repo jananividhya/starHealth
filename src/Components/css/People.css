@@ -1,95 +1,143 @@
-.center_text_people{
-    text-align:center;
-    color:rgb(0, 51, 102);
-    font-family: "Times New Roman", Times, serif;
-    text-shadow: 2px 2px greenyellow;
+.back_b{
+    background-color: rgb(198, 223, 231) !important;
+    width: 100% !important;
+    height:100% !important;
+    padding:20px !important;
+    height:100% !important;
 
+}
+.text_pos{
+    position:relative;
+    top:0px;
+    font-size: 200%;
+    left:50px;
+    font-weight: bold;
+    color:#191970;
+    text-shadow:1px 1px white ;
+}
 
+.text_pos1{
+    position:relative;
+    font-size:100%;
+    left:100px;
+    color:  #003366;
+    width:160px;
+    word-wrap:normal;
+    font-weight:1000;
 }
-.fix_people{
-    max-width: 100%;
-    max-height: 100%;
+.text_pos2{
+    position:relative;
+    font-size:100%;
+    left:200px;
+    bottom:75px;
+    color:  #003366;
+    width:160px;
+    word-wrap:normal;
+    font-weight:normal;
+    font-weight:1000;
+    
+}
+.text_pos3{
+    position:relative;
+    font-size:100%;
+    left:400px;
+    bottom:150px;
+    color:  #003366;
+    width:160px;
+    word-wrap:normal;
+    
+    font-weight:1000;
+}
+.text_pos4{
+    position:relative;
+    font-size:100%;
+    left:100px;
+     bottom:100px; 
+    color:  #003366;
+    width:160px;
+    word-wrap:normal;
+    font-weight:1000;
+    
 }
 
-.box_people{
-    position: relative;
-    display: inline-block; /* Make the width of box same as image */
+.text_pos5{
+    position:relative;
+    font-size:100%;
+    left:200px;
+     bottom:60px; 
+    color:  #003366;
+    width:160px;
+    word-wrap:normal;
+    
+    font-weight:1000;
 }
-.box_people .text_people{
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 7%; /* Adjust this value to move the positioned div up and down */
-    text-align: center;
-    width: 60%; /* Set the width of the positioned div */
+
+img.ui.huge.right.floated.image{
+    margin-top:10px !important;
 }
-.block1{
-    width:150px;
-    position:absolute; 
-    left:-180px;
-     top:70px; 
-}
-.block1 .inner1 {
-    word-wrap: break-word;
-    color:blue;
-    font-weight: 700;
-    text-shadow: 2px 2px whitesmoke;
-  }
-.block2{
-    width:150px;
-    position:absolute;
-    left:30px;
-    top:70px;
-}
-.block2 .inner2{
-    word-wrap:break-word;
-    color:blue;
-    font-weight: 700;
-    text-shadow: 2px 2px whitesmoke;
+@media only screen and (max-width: 600px) {
+    .text_pos{
+        position:relative;
+        top:0px;
+        font-size: 125%;
+        left:0px;
+        font-weight: bold;
+        color:#191970;
+        text-shadow:1px 1px white ;
     }
-
-.block3{
-    width:150px;
-    position:absolute;
-    left:250px;
-    top:70px;
-}
-
-
-.block3 .inner3{
-    word-wrap:break-word;
-    color:blue;
-    font-weight: 700;
-    text-shadow: 2px 2px whitesmoke;
+    .text_pos1{
+        position:relative;
+        font-size:100%;
+        left:0px;
+        color:  #003366;
+        width:150px;
+        word-wrap:normal;
+        font-weight:1000;
     }
-
-
-    .block4{
-    width:150px;
-    position:absolute;
-    left:-180px;
-    top:220px;
-    }
-
-    .block4 .inner4{
-        word-wrap:break-word;
-        color:blue;
-        font-weight: 700;
-        text-shadow: 2px 2px whitesmoke;
-        }
-        .block5{
-            width:150px;
-            position:absolute;
-            left:30px;
-            top:220px;
-            }
+    .text_pos2{
+        position:relative;
+        font-size:100%;
+        left:170px;
+        bottom:80px;
+        color:  #003366;
+        width:150px;
+        word-wrap:normal;
+        font-weight:1000;
+           }
+    .text_pos3{
+        position:relative;
+        font-size:100%;
+        left:300px;
+        bottom:150px;
+        color:  #003366;
+        width:150px;
+        word-wrap:normal;
+        font-weight:1000;
         
-    .block5 .inner5{
-         word-wrap:break-word;
-         color:blue;
-         font-weight: 700;
-         text-shadow: 2px 2px whitesmoke;
-                }
-            
+    }
+    .text_pos4{
+        position:relative;
+        font-size:100%;
+        left:0px;
+         bottom:100px; 
+        color:  #003366;
+        width:160px;
+        word-wrap:normal;
+        font-weight:1000;
+        
+    }
+    .text_pos5{
+        position:relative;
+        font-size:100%;
+        left:170px;
+         bottom:60px; 
+        color:  #003366;
+        width:160px;
+        word-wrap:normal;
+     
+        font-weight:1000;
+    }
+    
+    
+
+  }

@@ -23,7 +23,12 @@
   border-style:hidden;
  
 }
+.close{
+  position: absolute;
+  right: 22% !important;
+  top: 12% !important;
 
+}
 #right>a{
   height:0%;
   border-width: 1px 3px 1px 1px;

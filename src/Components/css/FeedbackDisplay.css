@@ -1,0 +1,84 @@
+.feedbackStyle{
+    font-size: 18px;
+    color: #202F55;
+    margin-bottom: 22px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: none !important;
+    font-weight: 500 !important;
+    /* font-family: Roboto!important; */
+}
+.carousel-caption{
+    padding-top:10% !important;
+    margin-top:10% !important;
+
+}
+
+.nameStyle{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+    text-shadow: none !important;
+}
+
+.placeStyle{
+    font-size: 13px;
+    color: #202F55;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-shadow: none !important;
+}
+.background{
+    display: block;
+    background-image: url("https://www.starhealth.in/sites/all/themes/starhealth/newui/image/bg-img-02.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 280px;
+    z-index: 0;
+    min-height: auto;
+}
+
+.lefticon {
+    background-position: -23px -163px;
+    margin-left: -50px;
+    margin-top: -11px;
+}
+.righticon {
+    background-position: -91px -163px;
+    margin-left: 15px;
+}
+.lefticon, .righticon {
+    height: 35px;
+    width: 31px;
+    position: absolute;
+}
+.homesprite {
+    background-image: url("https://www.starhealth.in/sites/all/themes/starhealth/newui/image/home-sprites-min.png");
+    float: left;
+}
+
+@media only screen and (max-width:750px){
+    .feedbackStyle{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80%;
+        font-weight: 500;
+        color: #202F55;
+        margin-top:10% !important;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        line-height: 21px;
+        padding: 30px;
+    }
+    .background{
+        background-color:gainsboro; 
+        height:430px;
+        border-top: 20% !important;
+    }
+    
+}
+
+
