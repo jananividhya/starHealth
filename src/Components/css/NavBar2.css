@@ -12,6 +12,7 @@ body {
   width: 100%;
   background-color:whitesmoke;
   position: relative;
+  /* z-index: inherit 1000 !important; */
 }
 
 .nav1 > .nav-header1 {

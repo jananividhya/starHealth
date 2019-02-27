@@ -11,21 +11,23 @@ import Media from "./Media";
 import Feedback from "./FeedbackDisplay";
 import Simpleslider from "./SimpleSlider";
 import Footer from "./Footering";
+// import Last from "./Last";
 class App extends React.Component {
   render() {
     return (
       <div>
         <NavBar1 />
-      <div className="divSticky"><NavBar2 /></div>
-         <Apps />
-        <Marquee /> 
+       <div className="divSticky"><NavBar2 /></div> 
+        <Apps />
+        <Marquee />
         <Simpleslider />
-         <People />
-         <Menu />
-       <Static /> 
-     <Media />
-      <Feedback /> 
-      <Footer />
+        <People />
+        <Menu />
+        <Static />
+        <Media />
+        <Feedback />
+        {/* <Last /> */}
+        <Footer />
       </div>);
   }
 
